@@ -29,4 +29,4 @@ function descendingOrder(n){
 
 
 descendingOrder(0)
-// descendingOrder(1021)
+descendingOrder(1021)
