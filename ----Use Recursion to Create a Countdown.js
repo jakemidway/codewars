@@ -32,20 +32,13 @@
 
 
 function rangeOfNumbers(startNum, endNum) {
-
     if (startNum > endNum) {
         return []
     } else {
         let countArray = rangeOfNumbers(startNum + 1, endNum)
-        console.log(startNum)
-        
-        countArray.unshift(startNum)
-        console.log(countArray)
-        
+        countArray.unshift(startNum)     
         return countArray;
-
-    }
-    
-};
+    } 
+}
 
 console.log(rangeOfNumbers(6, 9))
